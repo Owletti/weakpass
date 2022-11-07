@@ -64,7 +64,7 @@ Rules that are supported (source https://hashcat.net/wiki/doku.php?id=rule_based
 |Append Character	|$X	|Append character X to end	|$1	|p@ssW0rd	|p@ssW0rd1	|
 |Prepend Character	|^X	|Prepend character X to front	|^1	|p@ssW0rd	|1p@ssW0rd	|
 |Truncate left	|[|Delete first character	|[|p@ssW0rd	|@ssW0rd	|
-|Trucate right	|]|Delete last character	|	]|p@ssW0rd	|p@assW0r	|
+|Trucate right	|]|Delete last character	|	]|p@ssW0rd	|p@ssW0r	|
 |Delete @ N	|DN|Delete character at position N	|D3|p@ssW0rd	|p@sW0rd	|
 |Extract range	|xNM|Extract M characters, starting at position N	|x04|p@ssW0rd	|p@ss	|
 |Omit range	|ONM|Delete M characters, starting at position N	|O12|p@ssW0rd	|psW0rd	|
